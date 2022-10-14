@@ -61,6 +61,7 @@ main {
     margin: 0 10px 10px 10px;
     height: 500px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid var(--grey);
@@ -76,6 +77,19 @@ main {
 .main-presentation p:nth-child(2) {
     font-size: 28px;
     margin: 15px 0 0 0;
+}
+button {
+    width: 130px;
+    height: 35px;
+    background: var(--black);
+    border: 1 px solid var(--grey);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+button a {
+    text-decoration: none;
+    color: var(--white);
+
 }
 
 /* ==== Sobre mí ==== */
