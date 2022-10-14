@@ -1,3 +1,4 @@
+/* ==== Generales ==== */
 :root {
     --white: #ffffff;
     --black: #000000;
@@ -12,6 +13,8 @@ header {
     width: 100%;
     height: 95px;
 }
+
+/* ==== Navegador ==== */
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -50,12 +53,13 @@ header {
 .navbar-right ul li a:hover {
     color: var(--grey);
 }
+/* ==== Cara principal ==== */
 main {
     width: 100%;
 }
 .home-main {
     margin: 0 10px 10px 10px;
-    height: 485px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,8 +75,30 @@ main {
 }
 .main-presentation p:nth-child(2) {
     font-size: 28px;
-    margin-top: 15px;
+    margin: 15px 0 0 0;
 }
+
+/* ==== Sobre mí ==== */
+.aboutMe-main {
+    margin: 0 10px 10px 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--grey);
+    border-radius: 10px;
+}
+.aboutMe-presentation {
+    width: 70%;
+    text-align: center;
+}
+.aboutMe-presentation p:nth-child(1) {
+    font-size: 28px;
+}
+.aboutMe-presentation p:nth-child(4) {
+    margin-bottom: 28px;
+}
+
 @media (max-width: 640px) {
     .icon-menu {
         display: block;
